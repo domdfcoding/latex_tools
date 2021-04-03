@@ -2,4 +2,31 @@
 requires = [ "setuptools>=40.6.0", "wheel>=0.34.2",]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "py2latex"
+version = "0.0.6"
+description = "Create LaTeX documents with Python, Markdown and Jinja2."
+readme = "README.rst"
+keywords = []
+dynamic = [ "requires-python", "classifiers", "dependencies",]
+
+[[project.authors]]
+email = "dominic@davis-foster.co.uk"
+name = "Dominic Davis-Foster"
+
+
 [tool.importcheck]
+
+[tool.mkrecipe]
+conda-channels = [ "domdfcoding",]
+extras = "all"
+license-key = "MIT"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/domdfcoding/py2latex"
+"Issue Tracker" = "https://github.com/domdfcoding/py2latex/issues"
+"Source Code" = "https://github.com/domdfcoding/py2latex"
+Documentation = "https://py2latex.readthedocs.io/en/latest"
