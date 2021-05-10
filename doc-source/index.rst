@@ -25,7 +25,7 @@ py2LaTeX
 		* - Activity
 		  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 		* - QA
-		  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+		  - |codefactor| |actions_flake8| |actions_mypy|
 		* - Other
 		  - |license| |language| |requires|
 
@@ -107,9 +107,6 @@ py2LaTeX
 		:downloads: month
 		:alt: PyPI - Downloads
 
-	.. |pre_commit_ci| pre-commit-ci-shield::
-		:alt: pre-commit.ci status
-
 .. end shields
 
 .. start installation
@@ -146,6 +143,6 @@ py2LaTeX
 
 	View the :ref:`Function Index <genindex>` or browse the `Source Code <_modules/index.html>`__.
 
-	`Browse the GitHub Repository <https://github.com/domdfcoding/py2latex>`__
+	:github:repo:`Browse the GitHub Repository <domdfcoding/py2latex>`
 
 .. end links
