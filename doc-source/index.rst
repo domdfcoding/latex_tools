@@ -5,6 +5,7 @@ py2LaTeX
 .. start short_desc
 
 .. documentation-summary::
+	:meta:
 
 .. end short_desc
 
@@ -136,6 +137,12 @@ py2LaTeX
 
 	contributing
 	Source
+
+.. sidebar-links::
+	:caption: Links
+	:github:
+	:pypi: py2latex
+
 
 .. start links
 

@@ -26,11 +26,6 @@ Documentation = "https://py2latex.readthedocs.io/en/latest"
 
 [tool.importcheck]
 
-[tool.mkrecipe]
-conda-channels = [ "domdfcoding",]
-extras = "all"
-license-key = "MIT"
-
 [tool.sphinx-pyproject]
 github_username = "domdfcoding"
 github_repository = "py2latex"
@@ -45,10 +40,10 @@ extensions = [
     "sphinx_toolbox.more_autosummary",
     "sphinx_toolbox.documentation_summary",
     "sphinx_toolbox.tweaks.param_dash",
+    "sphinx_toolbox.tweaks.latex_layout",
     "sphinx_toolbox.tweaks.latex_toc",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
-    "sphinxcontrib.httpdomain",
     "sphinxcontrib.extras_require",
     "sphinx.ext.todo",
     "sphinxemoji.sphinxemoji",
@@ -79,7 +74,6 @@ toctree_plus_types = [
     "exception",
     "flag",
     "function",
-    "method",
     "namedtuple",
     "protocol",
     "role",
@@ -107,3 +101,17 @@ autodoc_exclude_members = [
     "__abstractmethods__",
     "__hash__",
 ]
+
+[tool.whey]
+base-classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+python-versions = [ "3.6", "3.7", "3.8", "3.9",]
+python-implementations = [ "CPython",]
+platforms = [ "Windows", "macOS", "Linux",]
+license-key = "MIT"
+additional-files = [ "recursive-include py2latex/templates *.tex",]

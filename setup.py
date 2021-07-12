@@ -21,8 +21,8 @@ setup(
 		description="Create LaTeX documents with Python, Markdown and Jinja2.",
 		extras_require=extras_require,
 		install_requires=install_requires,
+		name="py2latex",
 		py_modules=[],
-		version=__version__,
 		)
 
 shutil.rmtree("py2latex.egg-info", ignore_errors=True)
